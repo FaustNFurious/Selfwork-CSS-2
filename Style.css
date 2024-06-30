@@ -1,0 +1,166 @@
+*{
+    font-family: "Oswald", sans-serif;
+}
+
+body {
+    background-image: linear-gradient(rgba(255,255,255,0.4), rgba(255,255,255,0.7)), url(./Media/Background-Image-Home-Page.jpg); 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover; 
+}
+
+nav {
+    display: flex;
+}
+
+.Logo-Principale {
+    height: 10vh;    
+}
+
+.Navbar-Link {
+    display: flex;
+    list-style-type: none; 
+    padding-left: 80vh;
+}
+
+.Link-1, .Link-2, .Link-3, .Link-4, .Link-5, .Link-6 {
+    color: aqua;
+    text-decoration: none;
+    padding: 0vh 2vh; 
+}
+
+.Link-1:hover {
+    border-bottom-style: solid;
+}
+
+.Link-2:hover {
+    border-bottom-style: solid;
+}
+
+.Link-3:hover {
+    border-bottom-style: solid;
+}
+
+.Link-4:hover {
+    border-bottom-style: solid;
+}
+
+.Link-5:hover {
+    border-bottom-style: solid;
+}
+
+.Link-6:hover {
+    border-bottom-style: solid;
+}
+
+header {
+    padding-top: 10vh;
+}
+
+header > h1, p {
+    color: aqua;
+}
+
+h2 {
+    color: black;
+    text-align: center;    
+}
+
+h3 {
+    font-size: 17px;
+    color: green;
+    margin: 2% 2%;
+    margin-bottom: 10%;
+}
+
+h1, h2, h3 {
+    font-family: "Roboto", sans-serif;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+}
+
+.First-section {
+    padding: 0% 0%; 
+    border: 0% 0%;
+    margin: 1% 1%;
+    min-height: 30vh;
+    min-width: 30vw;
+    background-color: whitesmoke;
+    color: black;
+    text-align: justify;
+}
+
+.Img-1 {
+    height: 40vh;
+    width: 30vw;
+}
+
+.First-article {
+    max-height: 30vh;
+    max-width: 30vw;
+    margin: 2% 2%;
+}
+
+.Second-section {
+    padding: 0% 0%; 
+    border: 0% 0%;
+    margin: 1% 1%;
+    min-height: 30vh;
+    min-width: 30vw;
+    background-color: whitesmoke;
+    color: black;
+    text-align: justify;
+}
+
+.Img-2 {
+    height: 40vh;
+    width: 30vw;
+}
+
+.Second-article {
+    max-height: 30vh;
+    max-width: 30vw;
+    margin: 2% 2%;
+}
+
+.Third-section {
+    padding: 0% 0%; 
+    border: 0% 0%;
+    margin: 1% 1%;
+    min-height: 30vh;
+    min-width: 30vw;
+    background-color: whitesmoke;
+    color: black;
+    text-align: justify;
+}
+
+.Img-3 {
+    height: 40vh;
+    width: 30vw;
+}
+
+.Third-article {
+    max-height: 30vh;
+    max-width: 30vw;
+    margin: 2% 2%;
+}
+
+.Date {
+    margin: 2% 2%;
+    color: cadetblue;
+}
+
+.Button-Read-All {
+    margin: 2% 2%;
+    margin-top: 10%;
+    background-color: white;
+    color: black;
+}
+
+.Button-Read-All:hover {
+    background-color: yellow;
+    color: black;
+}
