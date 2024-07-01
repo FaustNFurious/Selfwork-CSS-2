@@ -11,6 +11,7 @@ body {
 
 nav {
     display: flex;
+    justify-content: space-between;
 }
 
 .Logo-Principale {
@@ -20,36 +21,15 @@ nav {
 .Navbar-Link {
     display: flex;
     list-style-type: none; 
-    padding-left: 80vh;
 }
 
-.Link-1, .Link-2, .Link-3, .Link-4, .Link-5, .Link-6 {
+.Link {
     color: aqua;
     text-decoration: none;
     padding: 0vh 2vh; 
 }
 
-.Link-1:hover {
-    border-bottom-style: solid;
-}
-
-.Link-2:hover {
-    border-bottom-style: solid;
-}
-
-.Link-3:hover {
-    border-bottom-style: solid;
-}
-
-.Link-4:hover {
-    border-bottom-style: solid;
-}
-
-.Link-5:hover {
-    border-bottom-style: solid;
-}
-
-.Link-6:hover {
+.Link:hover {
     border-bottom-style: solid;
 }
 
@@ -79,72 +59,25 @@ h1, h2, h3 {
 
 main {
     display: flex;
-    justify-content: center;
 }
 
-.First-section {
-    padding: 0% 0%; 
-    border: 0% 0%;
-    margin: 1% 1%;
-    min-height: 30vh;
-    min-width: 30vw;
+.Principal {
+    display: flex;
+    width: 60%;
+}
+
+.Principal-Section {
+    margin: 0% 1%;
     background-color: whitesmoke;
     color: black;
     text-align: justify;
 }
 
-.Img-1 {
-    height: 40vh;
-    width: 30vw;
+.Principal-Img {
+    width: 100%;
 }
 
-.First-article {
-    max-height: 30vh;
-    max-width: 30vw;
-    margin: 2% 2%;
-}
-
-.Second-section {
-    padding: 0% 0%; 
-    border: 0% 0%;
-    margin: 1% 1%;
-    min-height: 30vh;
-    min-width: 30vw;
-    background-color: whitesmoke;
-    color: black;
-    text-align: justify;
-}
-
-.Img-2 {
-    height: 40vh;
-    width: 30vw;
-}
-
-.Second-article {
-    max-height: 30vh;
-    max-width: 30vw;
-    margin: 2% 2%;
-}
-
-.Third-section {
-    padding: 0% 0%; 
-    border: 0% 0%;
-    margin: 1% 1%;
-    min-height: 30vh;
-    min-width: 30vw;
-    background-color: whitesmoke;
-    color: black;
-    text-align: justify;
-}
-
-.Img-3 {
-    height: 40vh;
-    width: 30vw;
-}
-
-.Third-article {
-    max-height: 30vh;
-    max-width: 30vw;
+.Principal-Article {
     margin: 2% 2%;
 }
 
@@ -163,4 +96,10 @@ main {
 .Button-Read-All:hover {
     background-color: yellow;
     color: black;
+}
+
+aside {
+    width: 40%;
+    text-align: center;
+    background-color: darkgrey;
 }
